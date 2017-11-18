@@ -51,7 +51,7 @@ public class adminAndRetailerLogin {
 		}
 		else
 		{
-			System.out.println("please login");
+			System.out.println("Name and Password cannot be NUll so please Log ini");
 		}
 	}
 	
