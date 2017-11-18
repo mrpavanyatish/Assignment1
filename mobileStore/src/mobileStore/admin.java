@@ -28,6 +28,10 @@ public class admin {
 		{
 			System.out.println("Please check your name or email or phone Number");
 		}
+		else
+		{
+			System.out.println("Retailer added into the system successfully");
+		}
 	}
 
 }
