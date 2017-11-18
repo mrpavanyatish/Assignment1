@@ -22,7 +22,7 @@ public class retailer {
 	{
 		if(price<100)
 		{
-			System.out.println("item sold");
+			System.out.println("Order number created and sold");
 		}
 		else
 		{
