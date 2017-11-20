@@ -5,10 +5,12 @@ import java.util.Scanner;
 public class admin {
 	
 	Scanner input = new Scanner(System.in);
+	//properties or instance variables or fields
 	String name;
 	String email;
 	int phoneNumber;
 	
+	//method to give a permission to retailer
 	public void givePermissionToRetailer()
 	{
 		System.out.println("Enter the name of Retailer");
@@ -21,7 +23,7 @@ public class admin {
 		check();
 		
 	}
-	
+	//checking the variables are not null
 	public void check()
 	{
 		if(this.name.equals(null) && this.email.equals(null) && this.phoneNumber==0)
