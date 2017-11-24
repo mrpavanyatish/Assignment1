@@ -7,6 +7,7 @@ public class retailer {
 	//fields or properties
 	String item;
 	float price;
+	
 	//selling an item method
 	public void sellItem()
 	{

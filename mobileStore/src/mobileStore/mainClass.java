@@ -1,5 +1,7 @@
 package mobileStore;
 
+
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class mainClass {
@@ -8,8 +10,11 @@ public class mainClass {
 		// TODO Auto-generated method stub
 		
 		Scanner input=new Scanner(System.in);
-		// object creation for retailer and using default constructor
 		
+		ArrayList<itemDetails> items = new ArrayList<itemDetails>();
+		items.add(new itemDetails("ad","adsad",12,1.00f));
+		
+		// object creation for retailer and using default constructor
 		adminAndRetailerLogin retailer= new adminAndRetailerLogin();
 		retailer.login();
 		
@@ -27,7 +32,7 @@ public class mainClass {
 		admin.login(admin.getName(), admin.getPassword());
 		
 		
-		
+		input.close();
 
 	}
 

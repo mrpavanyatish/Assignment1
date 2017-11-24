@@ -13,6 +13,7 @@ public class wordCount {
 	
 		String[] strArr=str.split(" ");
 		
+		
 		System.out.println("The number of words in a given String is "+strArr.length);
 	}
 
