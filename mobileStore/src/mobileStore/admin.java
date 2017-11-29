@@ -1,4 +1,4 @@
-apackage mobileStore;
+package mobileStore;
 
 import java.util.Scanner;
 

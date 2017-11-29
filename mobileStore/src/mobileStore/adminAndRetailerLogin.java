@@ -1,18 +1,21 @@
 package mobileStore;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class adminAndRetailerLogin {
 	
-	ArrayList<itemDetails> a = new ArrayList<itemDetails>();
-	a.add(new itemDetails("Aasdas","Adsasd",1,1.0f));
 	
 	
+	Scanner input = new Scanner(System.in);
 
 	// instance variables
 	String name;
 	String password;
 	
+	String sim;
+	int quantity;
+	float totalPrice;
 	
 	//default constructor
 	public adminAndRetailerLogin() {
@@ -54,8 +57,9 @@ public class adminAndRetailerLogin {
 		{
 			System.out.println("Welcome retailer " + name);
 			System.out.println("You have logged in as a Retailer");
-			
-			
+			System.out.println("---------------------------------");
+			retailer r=new retailer();
+			r.sellItem();
 			
 			
 		}

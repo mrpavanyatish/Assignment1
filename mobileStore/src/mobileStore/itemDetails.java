@@ -16,7 +16,7 @@ public class itemDetails {
 		this.price = price;
 	}
 
-
+	// getters and setters
 	public String getItemNo() {
 		return itemNo;
 	}
@@ -49,7 +49,7 @@ public class itemDetails {
 		this.price = price;
 	}
 	
-	// getters and setters
+	
 	
 	
 }
